@@ -19,3 +19,12 @@ console.log("this is parsed queryString: ",parsed_querystring);
 
 // const q= querystring.parse('year=2024&month=february');
 // console.log(q.year);
+const querystring=require('querystring');
+
+const q2=querystring.stringify({
+    name:'Testing',
+    company:'GeeksforGeeks',
+    content:'Article',
+    date:'6thFeb2024'
+});
+console.log(q2);
